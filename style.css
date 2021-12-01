@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+}
+
+
+
+
+header{
+    height: 90vh;
+}
+
+.top-bar{
+    background-color: #255EE9;
+    width: 100vw;
+    height: 13vh;
+    
+}
+
+.jumbotron{
+    width: 100vw;
+    height: 75%;
+    background-image: url(../htmlcss-discord/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.top-bar{
+    
+}
+
+.top-bar-content{
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    position: relative;
+}
+
+.top-bar-image{
+    height: 50%;
+    width: 50%;
+    
+    background-image: url(../htmlcss-discord/img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15%;
+    position: absolute;
+    top: 25%;
+    
+    
+}
+
+.top-bar-links{
+    
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    
+}
+
+.link{
+    margin: 4%;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.top-bar-button{
+    width: fit-content;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+.button{
+    padding: 20%;
+    background-color: white;
+    border-radius: 25%;
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+}
